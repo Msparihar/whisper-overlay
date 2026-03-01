@@ -1,0 +1,39 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+dist-ssr
+
+# Logs
+*.log
+logs
+
+# Environment / secrets
+*.local
+.env
+.env.*
+
+# Debug tests (development only)
+debug-tests
+
+# Dev guides
+TAURI_SETUP_GUIDE.md
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+Thumbs.db
+Desktop.ini
+
+# Lock files (bun uses binary lockfile)
+# bun.lockb is committed for reproducible builds
